@@ -1,7 +1,7 @@
 # VPC  
  VPC_vars = {
     vpc_cidr = "10.0.0.0/16" 
-    ENV = "usama" 
+    ENV = "" 
     public_subnets =  ["10.0.1.0/24", "10.0.3.0/24"]
     private_subnets = ["10.0.2.0/24", "10.0.4.0/24", "10.0.5.0/24"]
     AZS = ["us-east-2a", "us-east-2b"] 
@@ -28,11 +28,8 @@
     }
   ]
   SES = {
-    email="usamamukhtar0@gmail.com"
+    email="xyz@gmail.com"
   }
-  # SNS = {
-  #   ses-arn="arn:aws:ses:us-east-2:489994096722:identity/usama.mukhtar@eurustechnologies.com"
-  # }
   Lambda = {
-    slack_url = "https://hooks.slack.com/services/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"
+    slack_url = ""#webhook url
   }

@@ -1,4 +1,4 @@
-## sending bounced emails ot slack and Denamodb
+## sending bounced emails on slack and DynamoDB
 
 This repository contains Terraform modules for setting up AWS SES, SNS, Lambda, and DynamoDB resources. These modules work together to handle SES bounces, send notifications to Slack, and store bounce details in DynamoDB.
 
